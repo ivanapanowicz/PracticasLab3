@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import AddTask from "./components/addTask/AddTask";
-import Task from "./components/listTasks/ListTasks";
 import ListTasks from "./components/listTasks/ListTasks";
 
 function App() {

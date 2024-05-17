@@ -5,7 +5,9 @@ const AddTask = ({ addTask }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (title.trim() === "") return alert("La tarea no puede estar vacía.");
     addTask(title);
+    setTitle("");
   };
 
   const handleInputChange = (event) => {
